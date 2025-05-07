@@ -6,10 +6,12 @@ export const Financial = () => {
     <section className="w-full pt-8 px-8 max-md:px-2">
       <div
         id="financiamento"
-        className="bg-primary text-primary-foreground rounded-md p-8 max-md:p-4 flex gap-10 flex-col items-center justify-center"
+        className="bg-primary text-primary-foreground rounded-md p-8 max-md:p-4 flex gap-10 flex-col items-center justify-center "
       >
         <Badge variant="secondary">Financiamento</Badge>
-        <h3 className="text-5xl font-semibold">Simule seu Financiamento</h3>
+        <h3 className="text-5xl font-semibold text-center">
+          Simule seu Financiamento
+        </h3>
         <p className="text-lg font-light text-justify max-md:hidden">
           Financie com segurança pelas maiores instituições financeiras do país.
         </p>
