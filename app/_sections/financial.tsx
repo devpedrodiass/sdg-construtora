@@ -15,8 +15,8 @@ export const Financial = () => {
         </p>
 
         <p className="text-lg font-semibold">Como funciona?</p>
-        <div className=" grid grid-cols-2 gap-10 max-w-1/2">
-          <div className=" text-justify">
+        <div className=" grid grid-cols-2 gap-10 max-w-1/2 max-md:max-w-full max-md:grid-cols-1">
+          <div className=" text-justify max-md:hidden">
             Na SDG Planejar & Construir, facilitamos o acesso ao financiamento
             habitacional com nossos parceiros: Caixa Econômica Federal e Banco
             do Brasil. Por meio de nossos canais, você poderá simular
@@ -41,7 +41,7 @@ export const Financial = () => {
           </div>
 
           <div className="flex flex-col gap-4">
-            <div className="flex gap-4 max-w-[300px]">
+            <div className="flex gap-4 max-w-[300px] max-md:max-w-full">
               <Badge
                 variant="secondary"
                 className="h-fit text-lg font-bold size-8"
