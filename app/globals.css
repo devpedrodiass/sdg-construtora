@@ -138,3 +138,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+.test {
+  @media (max-width: 1024px) {
+    background-image: url('/test1.png');
+  }
+}

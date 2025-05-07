@@ -5,8 +5,8 @@ import React from "react"
 
 export const Apresentation = () => {
   return (
-    <section className="bg-primary text-primary-foreground w-full min-h-screen flex  justify-center p-8">
-      <div id="left" className=" flex flex-col">
+    <section className="bg-primary bg-no-repeat text-primary-foreground w-full min-h-screen flex  justify-center p-8 test">
+      <div id="left" className=" flex flex-col max-lg:items-center">
         <a
           href="#contato"
           className="font-bold flex items-center gap-2 text-2xl fixed bg-primary rounded-md translate-x-[-10px] outline-3 outline-primary/50 p-2 z-10"
@@ -15,7 +15,7 @@ export const Apresentation = () => {
           SDG Planejar & Construir
         </a>
 
-        <div className="mt-48 flex flex-col gap-8">
+        <div className="mt-48 flex flex-col gap-8 max-lg:items-center max-lg:text-center">
           <Badge
             variant="secondary"
             className="flex items-center gap-2 text-sm"
