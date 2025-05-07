@@ -7,6 +7,7 @@ import { Metrics } from "./_sections/metrics"
 import { OurWork } from "./_sections/our-work"
 import { Partners } from "./_sections/partners"
 import { Services } from "./_sections/services"
+import { Financial } from "./_sections/financial"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Partners />
       <Faq />
       <Contact />
+      <Financial />
       <Footer />
     </div>
   )

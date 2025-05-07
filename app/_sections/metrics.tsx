@@ -10,19 +10,19 @@ export const Metrics = () => {
           description="Construindo casas, realizando sonhos"
         />
         <MetricItem
-          amount={8}
-          title="Anos de mercado"
+          amount={116}
+          title="Pessoas impactadas"
           description="Construindo casas, realizando sonhos"
         />
         <MetricItem
-          amount={8}
-          title="Anos de mercado"
+          amount={35}
+          title="Projetos finalizados"
           description="Construindo casas, realizando sonhos"
         />
         <MetricItem
-          amount={8}
-          title="Anos de mercado"
-          description="Construindo casas, realizando sonhos"
+          amount={"100%"}
+          title="Satisfação do cliente"
+          description="Entregando casas de qualidade"
         />
       </div>
     </section>
@@ -30,7 +30,7 @@ export const Metrics = () => {
 }
 
 type MetricItemProps = {
-  amount: number
+  amount: number | string
   title: string
   description: string
 }
