@@ -77,12 +77,12 @@ export const Contact = () => {
   const whatsapplink = `https://wa.me/5511966106431?text=Ol%C3%A1,%20Venho%20por%20meio%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.`
 
   return (
-    <section id="contato" className="w-full pt-8 px-8">
-      <div className="bg-primary text-primary-foreground rounded-md p-8 flex gap-10">
-        <aside className="flex flex-col gap-4 max-w-1/3">
+    <section id="contato" className="w-full pt-8 px-8 max-md:px-2">
+      <div className="bg-primary text-primary-foreground rounded-md p-8 max-md:p-4 flex gap-10 max-md:flex-col">
+        <aside className="flex flex-col gap-4 max-w-1/3 max-md:max-w-full">
           <Badge variant="secondary">Contato</Badge>
           <h3 className="text-5xl font-semibold">Fale conosco</h3>
-          <p className="text-lg font-light text-justify">
+          <p className="text-lg font-light text-justify max-md:hidden">
             Para qualquer dúvida ou para explorar mais a fundo sua visão,
             convidamos você a entrar em contato com nossa equipe profissional
             usando os detalhes fornecidos abaixo.
@@ -179,7 +179,17 @@ export const Contact = () => {
                   </FormItem>
                 )}
               />
-              <Button type="submit">Enviar mensagem</Button>
+              <div className="flex items-center gap-4 max-md:flex-col text-center">
+                <Button type="submit">Enviar mensagem</Button>
+                ou{" "}
+                <a
+                  href={whatsapplink}
+                  target="_blank"
+                  className="w-fit flex items-center gap-2 hover:underline font-semibold"
+                >
+                  Converse conosco pelo Whatsapp <ExternalLinkIcon />
+                </a>
+              </div>
             </form>
           </Form>
         </aside>

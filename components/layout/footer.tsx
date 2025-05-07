@@ -4,9 +4,9 @@ import { Separator } from "../ui/separator"
 
 export const Footer = () => {
   return (
-    <footer className="pt-8 px-8">
+    <footer className="pt-8 px-8 max-md:px-2">
       <section className="bg-black p-8 rounded-md rounded-br-none rounded-bl-none flex flex-col gap-10">
-        <div className="flex gap-4 justify-between">
+        <div className="flex gap-4 justify-between max-md:flex-col">
           <aside>
             <h1 className="font-bold flex items-center text-primary-foreground gap-2 text-2xl">
               <ConstructionIcon className="bg-accent text-primary rounded-md size-10 p-2" />

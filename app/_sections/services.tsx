@@ -21,14 +21,17 @@ export const Services = () => {
         Encontre o melhor serviço que case com seu projeto
       </p>
 
-      <div className="flex w-full items-start justify-center gap-8">
+      <div className="flex w-full items-start justify-center gap-8 max-lg:flex-col max-lg:items-center">
         <img
           src="https://framerusercontent.com/images/A7yE2PBsrF4l2EgA4yTO9HiAcPQ.png"
           alt=""
-          className="rounded-md max-w-[610px]"
+          className="rounded-md  max-w-[610px] max-lg:object-cover max-lg:w-full max-lg:h-[150px]"
         />
 
-        <Accordion type="multiple" className="w-full max-w-1/2">
+        <Accordion
+          type="multiple"
+          className="w-full max-w-1/2 max-lg:max-w-full"
+        >
           <AccordionItem value="item-1">
             <AccordionTrigger>
               <div className="flex items-center gap-2">

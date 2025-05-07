@@ -10,7 +10,7 @@ export const AboutUs = () => {
       <div className="flex flex-col gap-4">
         <Badge>Sobre nós</Badge>
 
-        <div className="flex items-start gap-20">
+        <div className="flex items-start gap-20 max-md:flex-col">
           <p className="text-5xl">
             Engenheiros <br />
             Especialistas

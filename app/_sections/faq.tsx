@@ -12,8 +12,11 @@ export const Faq = () => {
   const whatsappLink = `https://wa.me/5511966106431?text=Ol%C3%A1,%20Venho%20por%20meio%20do%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.`
 
   return (
-    <section id="faq" className="flex gap-10 w-full justify-center  px-8 py-40">
-      <div className="max-w-1/3 flex flex-col gap-4">
+    <section
+      id="faq"
+      className="flex gap-10 w-full justify-center px-8 py-40 max-lg:flex-col max-lg"
+    >
+      <div className="max-w-1/3 flex flex-col gap-4 max-lg:max-w-full">
         <Badge>FAQs</Badge>
         <h3 className="text-5xl font-semibold">
           Respondendo <br /> dúvidas
@@ -35,7 +38,7 @@ export const Faq = () => {
         </a>
       </div>
 
-      <Accordion type="multiple" className="w-full max-w-1/3">
+      <Accordion type="multiple" className="w-full max-w-1/3 max-lg:max-w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>Qual nossa missão?</AccordionTrigger>
 
